@@ -1,0 +1,461 @@
+/* Normalize Css */
+body{
+    margin: 0;
+    padding: 0;
+    font-style: normal;
+    font-family: 'Mulish', sans-serif;  
+}
+
+h1, h2 , h3 , h4 , h5 , h6 , p{
+    padding: 0;
+    margin: 0;
+}
+
+ul {
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+.contanier{
+    max-width: 1140px;
+    width: 100%;
+    padding: 0 16px;
+    margin: 0 auto;
+}
+
+/* Normalize Css */
+
+/* Header Section */
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 50px 0 ;
+    gap: 109px;
+}
+
+.header_list{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.header_link_active{
+    color: var(--1f1534-hyfen, #1F1534);
+    font-size: 18px;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.header_item{
+    margin: 0 5px;
+}
+
+.header_link{
+    color: var(--1f1534-hyfen, #1F1534);
+    font-size: 18px;
+    line-height: normal;
+    font-weight: 400;
+    opacity: 0.5;
+    padding: 12px 15px;
+}
+
+/* Header Section */
+
+/* Hero Section */
+.hero{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 160px;
+}
+
+.hero_left{
+    width: 40%;
+}
+
+.hero_title{
+    color: #000;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 56px; 
+    margin-bottom: 25px;
+}
+
+.hero_subtitle{
+    color: #7D7987;
+    font-size: 21px;
+    font-weight: 300;
+    line-height: 32px; 
+    margin-bottom: 45px;
+}
+
+.btn {
+    border-radius: 55px;
+    background: #458FF6;
+    color: #FFF;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 60px;   
+    padding: 3px 40px;
+    border: none;
+}
+/* Hero Section */
+
+/* Our Services Section */
+
+.services_title{
+    color: #000;
+font-size: 36px;
+font-weight: 700;
+line-height: 56px; 
+text-align: center;
+margin-bottom: 26px;
+}
+
+.line{
+    border-radius: 5px;
+    background: #000;
+    display: block;
+    width: 56px;
+    height: 2px;
+    margin: 0 auto;
+    margin-bottom: 33px;
+}
+
+.services_subtitle{
+    color: #7D7987;
+text-align: center;
+font-size: 18px;
+font-weight: 300;
+line-height: 30px;
+margin-bottom: 80px;
+}
+
+/* Our Services Section */
+
+
+/* Card Section */
+
+.service-cards{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 34px ;
+}
+
+.card{
+    border-radius: 20px;
+background: #FFF;
+box-shadow: 10px 40px 50px 0px rgba(229, 233, 246, 0.40);
+max-width: 250px;
+width: 100%;
+height: 354px;
+padding: 39px 46px;
+margin-bottom: 115px;
+
+}
+
+.card_title{
+    color: #000;
+font-size: 24px;
+font-weight: 700;
+line-height: 56px; 
+margin-bottom: 5px;
+}
+
+.card_subtitle{
+    color: #7D7987;
+font-size: 16px;
+font-weight: 300;
+line-height: 28px; 
+width: 100%;
+margin-bottom: 10px;
+}
+
+.text{
+    color: #000;
+font-size: 24px;
+font-weight: 700;
+line-height: 56px; 
+margin-bottom: 18px;
+}
+
+.title{
+    color: #7D7987;
+font-size: 16px;
+font-weight: 300;
+line-height: 28px; 
+margin-bottom: 10px;
+}
+
+.consultation{
+    color: #000;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 56px; 
+    margin-bottom: 7px;
+}
+
+.card_text{
+    color: #7D7987;
+font-size: 16px;
+font-weight: 300;
+line-height: 28px; 
+}
+
+.details{
+    color: #000;
+font-size: 24px;
+font-weight: 700;
+line-height: 56px; 
+margin-bottom: 5px;
+}
+
+.card_details{
+    color: #7D7987;
+font-size: 16px;
+font-weight: 300;
+line-height: 28px; 
+margin-bottom: 40px;
+}
+
+.emergancy{
+    color: #000;
+font-size: 24px;
+font-weight: 700;
+line-height: 56px;
+margin-bottom: 10px; 
+}
+
+.card_emergancy{
+    color: #7D7987;
+font-size: 16px;
+font-weight: 300;
+line-height: 28px; 
+margin-bottom: 33px;
+margin: 0 auto;
+}
+
+.tracing{
+    color: #000;
+font-size: 24px;
+font-weight: 700;
+line-height: 56px; 
+margin-bottom: 10px;
+}
+
+.card_tracing{
+    color: #7D7987;
+font-size: 16px;
+font-weight: 300;
+line-height: 28px;
+margin-bottom: 30px;
+padding: 3px 40px;
+}
+
+.btn_learn{
+    border-radius: 55px;
+    border: 1.4px solid #458FF6;
+    color: #458FF6;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 60px;
+    margin-bottom: 400px;
+    margin: 0 950px;
+}
+
+
+/* End Card Section */
+
+
+/*Leading Section */
+
+.leading{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 230px;
+    max-width: 1140px;
+    width: 100%;
+    padding: 0 16px;
+    margin: auto;
+}
+
+ 
+.leading_right{
+    width: 40%;
+    margin-bottom: 140px;
+}
+
+.leading_title{
+    color: #000;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 56px; 
+    text-align: right;
+    margin-bottom: 45px;
+    border: 30px;
+}
+ 
+.leading_subtitle{
+    color: #7D7987;
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 30px;
+    margin-bottom: 45px; 
+} 
+
+.leading_line{
+    border-radius: 10px;
+    background: #000;
+}
+
+.leading_btn{
+    border-radius: 55px;
+     border: 1.4px solid #458FF6;
+     color: #458FF6;
+     font-size: 18px;
+     font-weight: 500px;
+     line-height: 40px;
+     margin: 0 180px;
+     margin-bottom: 360px;
+    }
+/*  End Leading  Section*/
+
+/* Mobile Section */
+.mobile{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1140px;
+    width: 100%;
+    padding: 0 16px;
+    margin: auto;
+    margin-bottom: 266px;
+}
+.mobile_title{
+    color: #000;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 48px; 
+    margin-bottom: 30px;
+}
+
+
+.line{
+    border-radius: 5px;
+    background: #000;
+    display: block;
+    width: 56px;
+    height: 2px;
+    margin: 0 auto;
+    margin-bottom: 33px;
+
+} 
+
+.mobile_subtitle{
+    color: #7D7987;
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 30px; 
+    margin-bottom: 37px;
+}
+
+.mobile_btn{
+    border-radius: 55px;
+    border: 1.4px solid #458FF6;
+    color: #458FF6;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 70px; 
+    margin: 20px 0 ;
+}
+    
+/* End Mobile Section */
+
+.Text{
+    text-align: center;
+    margin-bottom: 18px;
+}
+
+
+
+.flex_contanier{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 34px;
+    justify-content: center;
+    border: none;
+    width: 450px;
+    height: 450px;
+    margin: 50px auto;
+}
+
+.title{
+    border-radius: 20px;
+background: #FFF;
+box-shadow: 10px 40px 50px 0px rgba(229, 233, 246, 0.40);
+max-width: 250px;
+width: 100%;
+height: 354px;
+padding: 110px 120px;
+margin-bottom: 200px;
+}
+
+.labarotory_title {
+    color: #000;
+font-size: 21px;
+font-weight: 700;
+line-height: 32px;
+margin-bottom: 5px ; 
+}
+
+.labarotory_subtitle{
+    color: #7D7987;
+font-size: 16px;
+font-weight: 300;
+line-height: 28px; 
+width: 100%;
+margin-bottom: 10px;
+}
+
+
+.herbal_title{
+    color: #000;
+font-size: 21px;
+font-weight: 700;
+line-height: 32px; 
+width: 100%;
+margin-bottom: 10px;
+}
+
+.herbal_subtitle{
+    color: #7D7987;
+font-size: 16px;
+font-weight: 300;
+line-height: 28px; 
+width:100%;
+margin-bottom: 10px;
+}
+
+.healthy_title{
+    color: #000;
+font-size: 21px;
+font-weight: 700;
+line-height: 32px; 
+width: 100%;
+margin-bottom: 10px;
+}
+
+.healthy_subtitle{
+    color: #7D7987;
+font-size: 16px;
+font-weight: 300;
+line-height: 28px; 
+
+}
