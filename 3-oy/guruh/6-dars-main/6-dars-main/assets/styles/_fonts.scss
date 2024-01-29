@@ -1,0 +1,10 @@
+@font-face {
+  font-family: "Metropolis";
+  src: url("../fonts/");
+  src: url("../fonts/?#iefix") format("embedded-opentype"),
+    url("../fonts/Metropolis-Black.woff2") format("woff2"),
+    url("../fonts/Metropolis-Black.woff") format("woff");
+  font-weight: 900;
+  font-style: normal;
+  font-display: swap;
+}
